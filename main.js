@@ -66,8 +66,8 @@ scene.background = new THREE.Color(0xF3CFC6);
 function animate() {
 
     requestAnimationFrame(animate);
-    dodecahedron.rotation.x += 0.001;
-    dodecahedron.rotation.y += 0.001;
+    dodecahedron.rotation.x += 0.02;
+    dodecahedron.rotation.y += 0.02;
 
     hue += 0.001;
     if (hue > 1) hue = 0;
